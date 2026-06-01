@@ -3,7 +3,5 @@ Glowing Taskbar is a theme for Windhawk that adds a glowing effect to your Windo
 How to install it
 Copy the YAML in [Glowing Taskbar byDevara.yaml](https://github.com/bydevara/Glowing-Taskbar-for-Windows-11/blob/main/Glowing%20Taskbar%20byDevara.yaml) and paste it to Windhawk Windows 11 Taskbar Styler mod in textual mode, and then click "Save Settings", done.
 
-without custom icons:
+Screenshot:
 ![image alt](https://github.com/bydevara/Glowing-Taskbar-for-Windows-11/blob/26f9a2adb1300bd0e15cb1b44e8831ca18f88bd8/screenshots/Screenshot.png)
-with custom icons:
-![image alt](https://github.com/bydevara/Glowing-Taskbar-for-Windows-11/blob/26f9a2adb1300bd0e15cb1b44e8831ca18f88bd8/screenshots/Screenshot%20(with%20custom%20icons).png)
