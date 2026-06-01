@@ -10,8 +10,7 @@ styleConstants:
   - CR4=10
   - CornerRadiusVolumeBrightnessPopUp=15
   - CornerRadius=1
-  - bb=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1" Opacity="0.15"><GradientStop Color="{ThemeResource TextFillColorSecondary}" Offset="0.0"/><GradientStop Color="{ThemeResource TextFillColorTertiary}" Offset="0.5"/><GradientStop Color="{ThemeResource TextFillColorSecondary}" Offset="1.0"/></LinearGradientBrush>
-  - bt=2
+  - BT=2
   - BorderThicknessGlow=0,2,0,0
   - BorderBrush=<WindhawkBlur BlurAmount="15" TintColor="#0F000000"/>
   - GridMargin=-1.5,0,-1.5,0
@@ -155,14 +154,14 @@ controlStyles:
     styles:
       - Background:=$Background2
       - CornerRadius:=$CR2
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
       - Shadow:=
   - target: Windows.UI.Xaml.Controls.Grid#ConfirmatorMainGrid
     styles:
       - Background:=$Background2
       - CornerRadius=$CornerRadiusVolumeBrightnessPopUp
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
       - Shadow:=
   - target: Windows.UI.Xaml.Shapes.Rectangle#HorizontalTrackRect
@@ -172,15 +171,15 @@ controlStyles:
     styles:
       - Background:=$Background3
       - CornerRadius=$CR3
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
       - Shadow:=
   - target: Taskbar.TaskItemThumbnailView > Grid@CommonStates > Border#BackgroundBorder
     styles:
       - Background:=$Background3
-      - BorderThickness@Normal=$bt
+      - BorderThickness@Normal=$BT
       - BorderBrush@Normal:=$BorderBrush
-      - BorderThickness@PointerOver=$bt
+      - BorderThickness@PointerOver=$BT
       - BorderBrush@PointerOver:=$BorderBrush
       - CornerRadius=$CR3
   - target: Windows.UI.Xaml.Controls.ContentPresenter#BorderElement
@@ -191,7 +190,7 @@ controlStyles:
     styles:
       - Background:=$Background1
       - CornerRadius=$CR
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
       - Shadow:=
   - target: Windows.UI.Xaml.Controls.Grid#ModalRootGrid > Windows.UI.Xaml.Controls.Border#BackgroundElement
@@ -206,7 +205,7 @@ controlStyles:
     styles:
       - Background:=$Background2
       - CornerRadius=$CR2
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
   - target: WindowsInternal.ComposableShell.Experiences.Switcher.VirtualDesktopBarElement#VirtualDesktopBar
     styles:
@@ -215,7 +214,7 @@ controlStyles:
   - target: Windows.UI.Xaml.Controls.Grid#MainGrid
     styles:
       - CornerRadius=$CR3
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
   - target: Windows.UI.Xaml.Controls.Button#VirtualDesktopElementCloseButton
     styles:
@@ -238,7 +237,7 @@ controlStyles:
   - target: Windows.UI.Xaml.Controls.Border#SnapPickerBorder
     styles:
       - Background:=$Background2
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
   - target: Windows.UI.Xaml.Controls.FlyoutPresenter > Border
     styles:
@@ -265,7 +264,7 @@ controlStyles:
     styles:
       - Background:=$Background2
       - CornerRadius=$CR3
-      - BorderThickness=$bt
+      - BorderThickness=$BT
       - BorderBrush:=$BorderBrush
       - Shadow:=
   - target: ScrollViewer#MenuFlyoutPresenterScrollViewer > Border > Grid > ScrollContentPresenter > ItemsPresenter > StackPanel
@@ -282,11 +281,11 @@ controlStyles:
       - Margin=0,1,0,0
   - target: TextBlock#TimeInnerTextBlock
     styles:
-      - FontFamily=SF Pro
+      - FontFamily=Segoe UI Variable
       - FontSize=14
   - target: TextBlock#DateInnerTextBlock
     styles:
-      - FontFamily=SF Pro
+      - FontFamily=Segoe UI Variable
       - FontSize=14
   - target: Grid#SystemTrayFrameGrid
     styles:
