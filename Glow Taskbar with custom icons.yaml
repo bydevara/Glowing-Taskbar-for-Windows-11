@@ -1,4 +1,4 @@
-theme: Glow Taskbar
+theme: Glow Taskbar byDevara
 styleConstants:
   - Background1=<WindhawkBlur BlurAmount="15" TintColor="#0F000000" TintOpacity="0.4" />
   - Background2=<WindhawkBlur BlurAmount="11" TintColor="#25323232"/>
